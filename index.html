@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1dc96c2f73.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -13,13 +17,16 @@
         <header class="header">
           <div class="header-search">
             <button class="icon-btn">
-            🔍
+            <i class="fa-solid fa-magnifying-glass"></i>
             </button>
             <input type="search" placeholder="Search..." />  
           </div>
 
           <div class="header-avatar-right">
-            <img class="avatar" src="#" alt="User avatar" />
+            <button class="notification">
+              <i class="fa-regular fa-bell"></i>
+            </button>
+            <img class="avatar" src="Assets/avatar.png" alt="User avatar" />
             <div class="user-meta">Luca Ambrosino</div>
           </div>
 
